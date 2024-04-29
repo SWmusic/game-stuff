@@ -5,6 +5,16 @@
 This is a game I made that I think I am gonna call Deepstone.
 It's a text adventure I began working on as part of my final project for a intro to programming class I took.
 
+## What does the player need?
+
+The player will need a python interpreter that can run the file. I personally use and recommend Visual Studio Code.
+
+https://code.visualstudio.com/
+
+There's a link ^^^
+
+Once that is downloaded, you will open the app and go to extensions and download "Python". Now open the downloaded .py file and click the "run" arrow at the top. If you quit the game or wish to restart, first quit the game, and type clear in the terminal to erase the history of messages. Enjoy!
+
 ## How?
 
 A. Lot. Of. If. Then. Statements. Also a couple of lists.
