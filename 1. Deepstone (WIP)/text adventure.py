@@ -493,6 +493,7 @@ def row_3_houses_scenario():
 
             choice_5_2()
         elif choice_5_1 == '2':
+            # TODO row 2 house 2 scenario
             placeholder()
             choice_5()
         
@@ -501,7 +502,8 @@ def row_3_houses_scenario():
             row_2_houses_scenario()
         
         elif choice_5_1 == '4':
-            placeholder()
+            print("\n\nYou walk to the fourth row of houses. \n\nThe dreariness of the village is weighing on you.")
+            row_4_houses_scenario()
             choice_5()
         
         elif choice_5_1 == '5':
@@ -517,6 +519,41 @@ def row_3_houses_scenario():
         
 
     choice_5()
+
+def row_4_houses_scenario():
+    def choice_6():
+        choice_6_ = input("\n\nWhat would you like to do? \n[1]: Go in the house on the left \n[2]: Go in the house on the right \n[3]: Leave the village. [4]: Go to the third row of houses. \n[5]: Check inventory. \n[6]: Quit. \n")
+        if choice_6_ == '1':
+            # TODO row 4 house 1 scenario
+            placeholder()
+            choice_6()
+        
+        elif choice_6_ == '2':
+            # TODO row 4 house 2 scenario
+            placeholder()
+            choice_6()
+        
+        elif choice_6_ == '3':
+            # TODO leaving the village
+            placeholder()
+            choice_6()
+        
+        elif choice_6_ == '4':
+            print("\n\nYou turn and walk to the third row of houses.")
+            row_3_houses_scenario()
+        
+        elif choice_6_ == '5':
+            print(inventory)
+            choice_6()
+        
+        elif choice_6_ == '6':
+            leaving()
+        
+        else:
+            invalid()
+            choice_6()
+    
+    choice_6()
 
 def placeholder():
     print("This area isn't finished yet!")
